@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.homepagemain{
+    background-color: #fff;
+    height: 100vh;
+    width: auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding:25px;
+    
+    .wrapper{
+        border:1px solid #c2c2c2;
+        padding:20px;
+        height: 100%;
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: auto;
+        flex-shrink: 0
+    }
+}
